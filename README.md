@@ -1,4 +1,4 @@
-# CRISalid-notebooks 🦋
+# notebooks pour la bibliométrie 🦋
 
 
 Qui est affilié à mon établissement ? Qui a quels identifiants auteur ? Qui a publié quoi dans HAL ? Pourquoi ce chercheur est-il affilié au mauvais labo dans OpenAlex ? Pour valoriser la production de ses chercheurs dans HAL, mesurer l’adoption d’ORCID ou analyser la production scientifique dans OpenAlex, chaque établissement se pose ces questions. Vous trouverez ici des petits outils créés par des bibliothécaires pour des bibliothécaires, utiles pour aligner les identifiants chercheurs, repérer des affiliations à corriger ou mettre à jour les notices d'autorité dans IdRef.  
