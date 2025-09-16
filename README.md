@@ -1,25 +1,27 @@
 # notebooks pour la bibliométrie 🦋
 
 
-Qui est affilié à mon établissement ? Qui a quels identifiants auteur ? Qui a publié quoi dans HAL ? Pourquoi ce chercheur est-il affilié au mauvais labo dans OpenAlex ? Pour valoriser la production de ses chercheurs dans HAL, mesurer l’adoption d’ORCID ou analyser la production scientifique dans OpenAlex, chaque établissement se pose ces questions. Vous trouverez ici des petits outils créés par des bibliothécaires pour des bibliothécaires, utiles pour aligner les identifiants chercheurs, repérer des affiliations à corriger ou mettre à jour les notices d'autorité dans IdRef.  
+
+Qui est affilié à mon établissement ? Qui a quels identifiants auteur ? Qui a publié quoi dans HAL ? Pourquoi ce chercheur est-il affilié au mauvais labo dans OpenAlex ? Pour valoriser la production de ses chercheurs dans HAL, mesurer l’adoption d’ORCID ou analyser la production scientifique dans OpenAlex, chaque établissement se pose ces questions. Vous trouverez ici des petits outils créés par des bibliothécaires pour des bibliothécaires, utiles pour aligner les identifiants chercheurs, repérer des affiliations à corriger ou mettre à jour les notices d'autorité dans IdRef.
 
 
-## Notebooks : 
+
+## Notebooks :
 
 ### Export .csv de la liste des chercheurs et de leurs IdHal affiliés à une liste de laboratoires dans HAL
 
 Objectif : mettre à jour l'annuaire de son établissement avec les IdHal, aligner les identifiants chercheurs, mettre à jour IdRef  
-Voir le notebook : [export_csv_chercheurs-idhal_selon_id_struct.ipynb](demo/export_csv_chercheurs-idhal_selon_id_struct.ipynb)
+Voir le notebook : [export\_csv\_chercheurs-idhal\_selon\_id\_struct.ipynb](demo/export_csv_chercheurs-idhal_selon_id_struct.ipynb)
 
 ### Export .csv de la liste des signatures des chercheurs affiliés à une institution dans OpenAlex
 
-Objectif : comparer les signatures des auteurs d'une institution avec les affiliations attribuées automatiquement dans OpenAlex pour repérer des erreurs ou suivre le respect de la charte de signature. Vous pourrez ensuite demander des corrections sur [works-magnet](https://works-magnet.staging.dataesr.ovh).   
+Objectif : comparer les signatures des auteurs d'une institution avec les affiliations attribuées automatiquement dans OpenAlex pour repérer des erreurs ou suivre le respect de la charte de signature. Vous pourrez ensuite demander des corrections sur [works-magnet](https://works-magnet.staging.dataesr.ovh).  
 Voir le notebook : [export-signatures-openalex.ipynb](demo/export-signatures-openalex.ipynb)
 
 ### Ajout d'un champ avec l'id OpenAlex dans un fichier excel issus par exemple du WOS
 
-Objectif : récupérer les liens vers OpenAlex dans un fichier Excel contenant des DOI    
-Voir le notebook : [ajout_idopenalex-exportwos.ipynb](demo/ajout_idopenalex-exportwos.ipynb)
+Objectif : récupérer les liens vers OpenAlex dans un fichier Excel contenant des DOI  
+Voir le notebook : [ajout\_idopenalex-exportwos.ipynb](demo/ajout_idopenalex-exportwos.ipynb)
 
 ### Export .csv de la liste des identifiants présents dans les notices IdRef d'une liste de chercheurs
 
@@ -30,3 +32,11 @@ Voir le notebook : [export-identifiants-idref.ipynb](demo/export-identifiants-id
 
 Objectif : visualiser l'évolution du nombre de collaborations entre plusieurs établissements sur une période, (par exemple pour montrer qu'un projet mené en commun a stimulé les collaborations)  
 Voir le notebook : [collab-euniwell.ipynb](demo/collab-euniwell.ipynb)
+
+### Retrouver des dépôts sauvages par des bots d'éditeurs prédateurs dans une collection HAL
+
+Objectif : rechercher dans une collections HAL des dépôts correspondant à une liste d'éditeurs suspect    
+Voir le notebook : [recherche\_bookpi\_HALcollection.ipynb](demo/recherche_bookpi_HALcollection.ipynb)
+
+
+
